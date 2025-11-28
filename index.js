@@ -207,7 +207,7 @@ const enviarComprobante = async () =>{
         //2. Firmar XML
         const xmlSignature = new XmlSignature(
             path.join(__dirname, 'certificado', 'certificado-firma.pfx'),
-            'certificado_prueba',
+            'neotest7159',
             await fs.readFile(
                 path.join(XML_FOLDER, `${nombreXml}.xml`),
                 'utf-8'
