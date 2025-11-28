@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-sunat-envio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@supernova-team/xml-sunat": "^0.9.6",
+    "@xmldom/xmldom": "^0.9.8",
+    "jszip": "^3.10.1",
+    "node-fetch": "^2.7.0",
+    "unzipper": "^0.12.3"
+  }
+}
